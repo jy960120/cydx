@@ -1,0 +1,392 @@
+red
+
+#zhanshi_meau{
+	width: 1366px;
+	height:42px;
+	background-color: #f5f0ee;
+}
+#zhanshi_meau ul{
+	list-style: none;
+    height:42px;
+    width: 700px;
+    margin-left: 240px;
+}
+#zhanshi_meau ul li{
+	width: 155px;
+	float: left;
+	height:32px;
+	text-align: center;
+	border-left:1px solid #cccccc;
+}
+#tsxl{
+	border-right:1px solid #cccccc;
+}
+#zhanshi_meau ul li a{
+	padding-top:10px;
+	display: block;
+	text-decoration: none;
+	width: 155px;
+	height:32px;
+	color: #c0aea8;
+	font-size: 15px;
+}
+#zhanshi_meau ul li a:hover{
+	background-color: #69b379;
+	color: #ffffff;
+}
+#zhanshi_meau ul li #zhanshia{
+	background-color: #69b379;
+	color: #ffffff;
+}
+#smjindian{
+	clear: both;
+	width: 1000px;
+	height: 65px;
+	margin:20px auto;
+}
+#protitleleft{
+	width: 85px;
+	float: left;
+}
+#protitleright{
+	margin-top:10px;
+	width: 890px;
+	float: right;
+	color:#caac9a;
+	font-size: 13px;
+	line-height: 24px;
+}
+/* 产品展示 */
+#tablist{
+	clear: both;
+	width: 1030px;
+    margin: auto;
+}
+#tablist ul li img{
+margin: 10px;
+}
+#tablist ul{
+	list-style: none;
+}
+#tablist ul li{
+	display: block;
+	margin-top: 1000px;
+	width: 300px;
+	border:1px solid #CCC;
+	float: left;
+	margin:0px 20px 0px 20px;
+	text-align: center;
+}
+#tablist ul li a{
+	color:#736353;
+	text-decoration: none;
+	font-size: 12px;
+}
+#tablist ul li span{
+	margin-top:0px;
+	padding: 5px;
+	display: block;
+	border-top: 1px solid #CCC;
+}
+#jdbt{
+    margin-top: 30px;
+	width: 300px;
+	height: 30px;
+	/* border: 1px solid red; */
+	margin:auto;
+	text-align: center;
+}
+#jdbt a{
+	padding: 3px;
+	text-align: center;
+	float: left;
+	width: 25px;
+	display: block;
+	color:#736353;
+	text-decoration: none;
+	margin-left: 8px;
+	background-color: #CCC;
+	border-radius: 5px;
+}
+#jdbt span{
+	float: left;
+}
+#jdbt #zsa{
+width: 70px;
+}
+#jdbt #zsa1{
+	background-color: #69b379;
+	color: #ffffff;
+}
+
+#jdbt a:hover{
+	background-color: #69b379;
+	color: #ffffff;
+	}
+#jdbt #zsa:hover{
+	background-color: #CCC;
+	color:#736353;
+}
+
+/* 简美系列层 */
+#jmceng{
+	margin:auto;
+	margin-top: 20px;
+	width: 1000px;
+	color:#caac9a;
+	font-size: 13px;
+	text-align: center;
+	line-height: 23px;
+}
+#jmjs{
+	margin-top: 20px;
+	margin:auto;
+	width: 520px;
+	color:#f2efe1;
+	line-height: 28px;
+	height: 350px;
+	background: url(../images/shangpin/tinm01.jpg) no-repeat;
+	padding-top: 245px;
+}
+/* 英伦介绍层 */
+#ylceng{
+	padding-top: 20px;
+	width:1040px;
+    height: 730px;
+    margin:auto; 
+}
+#yljs{
+   margin-top:10px; 
+   width:1040px;
+   height: 630px;	
+   padding-top: 20px;
+   background: url(../images/shangpin/tinm02.jpg) no-repeat;
+   color:#afa49a;
+   font-size: 13px;
+   line-height: 25px;
+}
+.yljs1{
+	width: 400px;
+	margin:20px 0px 0px 550px;
+}
+.yljs2{
+	width: 840px;
+	margin:60px 0px 0px 100px;
+}
+#xcceng{
+	width: 1100px;
+	margin:auto;
+	color:#afa49a;
+    font-size: 13px;
+    margin-top: 20px;
+}
+#xc1{
+    margin-top: 20px;
+	width: 560px;
+	height: 300px;
+	float: left;
+}
+#xc2{
+	margin-top: 20px;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+	width: 500px;
+	height: 470px;
+}
+#jdceng{
+	color:#afa49a;
+    font-size: 13px;
+    line-height: 25px;
+	width: 1000px;
+	height:840px;
+	margin:auto;
+	margin-top: 20px;
+}
+#jd1{
+	float: left;
+	margin-top: 20px;
+}
+#jd2{
+	 line-height: 28px;
+	float: right;
+	margin-top: 50px;
+}
+#jd3{
+	margin-top: 50px;
+	clear: both;
+	float: left;
+}
+#jd4{
+	line-height: 23px;
+	font-size: 12px;
+	width: 558px;
+	padding:20px 0px 0px 40px;
+	margin:50px 0px;
+	float: left;
+	background: url(../images/shangpin/tinm05.png);
+}
+.jds{
+	color: #e83c35;
+	font-weight: bold;
+	font-size: 20px;
+}
+.classicbot{
+	color:#afa49a;
+	line-height: 23px;
+	margin-top: 30px;
+	margin:auto;
+	font-size: 12px;
+	width: 1000px;
+	clear: both;
+	text-align: center;
+}
+.icbot{
+	width: 1366px;
+	height: 190px;
+	background-color: #faf7f6;
+	margin:auto;
+	border-top: 1px solid #e7e3e0;
+	}
+
+/* 品牌活动层 */
+#hdceng{
+	width: 1030px;
+	/* height: 1255px; */
+	margin:auto;
+	margin-top:30px;
+}
+#hdceng ul{
+	list-style: none;
+}
+#hdceng ul li{
+	display: block;
+	height:150px;
+	border-bottom:1px solid #CCC;
+
+}
+.newlist{
+	margin-top: 45px;
+	line-height: 25px;
+	padding-left: 10px;
+}
+.newlistl{
+	text-align: center;
+	padding-top: 15px;
+	width: 70px;
+	height: 80px;
+	border: 1px solid #69b27a;
+	font-size:22px;
+	color:#69b27a;
+	font-weight: bold; 
+	float: left;
+} 
+.newlistl span{
+	
+	margin-top: 7px;
+	padding-top:10px;
+	font-weight:0;
+	display: block;
+	background-color:#69b27a;
+	height: 39px;
+	font-size:14px;
+	color:#ffffff;
+}
+.newright{
+	width: 900px;
+	float: left;
+	font-size: 13px;
+	color: #bbaea8;
+	margin-left: 20px;
+
+}
+.newright span{
+	padding: 10px 0px;
+	font-size: 14px;
+	color: #726152;
+}
+.newright a{
+	text-decoration: none;
+	color: #726152;
+}
+#xialaceng{
+	display: none; 
+	width: 1030px;
+	height: 710px;
+	margin:auto;
+	margin-top:0px;
+}
+#xialaceng ul{
+	list-style: none;
+}
+#xialaceng ul li{
+	display: block;
+	margin-bottom: 20px;
+	height:150px;
+	border-top:1px solid #CCC;
+
+}
+#xiala{
+	padding: 8px;
+	width: 200px;
+	margin:auto;
+	text-align: center;
+	background-color: #98dba6;
+	color: #ffffff;
+}
+#xiala:hover{
+	background-color:#69b379; 
+}
+#hdceng ul li .tsl{
+	border-bottom:1px solid red;
+}
+/* 地图 */
+#lianxi{
+	width: 1000px;
+	margin:30px auto;
+	font-size: 12px;
+	color: #5c5b5a;
+	
+}
+#lianxil{
+	line-height: 30px;
+	margin: 10px 0px 30px 170px;
+	float: left;
+}
+#lianxil a{
+	text-decoration: none;
+	color: #5c5b5a;
+}
+#lianxil a:hover{
+	color: #69b379;
+}
+.contacttoplb{
+	margin-top: 10px;
+}
+.contacttoplbt img{
+	float: left;
+}
+.contacttoplbt a{
+	margin:-7px 0px 0px 13px;
+	float: left;
+}
+#lianxir{
+	line-height: 24px;
+	margin: 10px 0px 30px 100px;
+	float: left;
+}
+#lianxir span{
+	color: #69b379; 
+}
+/* 品牌故事 */
+.storyceng{
+	width: 1100px;
+	margin:auto;
+	color:#afa49a;
+    font-size: 13px;
+    line-height: 25px;
+    display: none;
+}
+.storyceng img{
+	margin:30px 0px 20px 0px;
+}

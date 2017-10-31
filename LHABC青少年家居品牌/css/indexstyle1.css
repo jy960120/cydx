@@ -1,0 +1,149 @@
+@charset "utf-8";
+*{
+	margin: 0px;
+    padding: 0px;
+}
+body{
+	width:100%;
+	height:5000px;
+	margin:auto;
+	border:1px solid #369;
+	}
+#top{
+	width: 100%;
+	position: fixed;
+	background-color: #ffffff;
+}
+#logo{
+	width: 88%;
+	height: 80px;
+	margin:0px auto;
+	font-size: 14px;
+	border:1px solid #369; 
+}
+#logo span{
+    color: #b1a49b;
+	float: right;
+	margin: 30px 0px 0px 0px;
+	display: block;
+	width: 300px;
+
+}
+#meau {
+	width: 76%;
+	height: 30px;
+	border:1px solid #369;
+	margin:25px auto;
+}
+#meau ul
+{
+	list-style:none;
+}
+#meau ul li{
+	float:left;
+	width:12.5%;
+	text-align: center;
+	/* border:1px solid #369; */
+	
+}
+#meau ul li a{
+	text-decoration: none;
+	color:#736353;
+	font-size: 15px;
+
+}
+#lunbo{
+	 width: 1366px;
+	 margin:auto;
+	 margin-top:8px;
+	 border:1px solid #369;
+}
+.idea{
+	width: 100%;
+	margin: auto;
+	margin-top: 30px;
+
+}
+#ideaimg{
+	width: 1366px;
+	margin: auto;
+	i
+}
+.ideaimg{
+	width: 1366px;
+	margin: auto;
+}
+.ideakt{
+	text-align: center;
+	font-size: 19px;
+	color: #988984;
+}
+.ideakx{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 25px;
+	color: #988984;
+}
+.ideaimg{
+	margin-top: 30px;
+}
+#tab{
+	width: 1366px;
+	height: 1200px;
+}
+#tab_meau{
+	width:100%;
+	height: 140px;
+	background-color: #f5f0ed;
+	text-align: center;
+	margin-top: -20px;
+}
+#tab_meau ul{
+	padding-top: 10px;
+	list-style: none;
+	margin: 20px 0px 0px 60px;
+}
+#tab_meau ul li{
+	float: left;
+	width: 110px;
+	margin-left:150px;
+
+}
+#tab_meau ul li p{
+	margin-top: 5px;
+	font-size: 14px;
+}
+#tab_meau ul li p a{
+	text-decoration: none;
+	color: #bbaea8;
+}
+#tab_list{
+	width: 1030px;
+	margig:350px;
+	border: 1px solid red; 
+	height: 1000px;
+}
+#tab_list ul{
+	list-style: none;
+}
+#tab_list ul li{
+	width: 280px;
+	border: 1px solid #CCC;
+	float: left;
+	margin:0px 20px 0px 20px;
+	text-align: center;
+}
+#tab_list ul li a{
+	color: #bbaea8;
+	text-decoration: none;
+	font-size: 14px;
+}
+#tab_list ul li span{
+	margin-top: 15px;
+	display: block;
+	border-top: 1px solid #CCC;
+}
+#tab_list ul li span p{
+	padding: 4px;
+}

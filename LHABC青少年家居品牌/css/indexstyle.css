@@ -1,0 +1,430 @@
+@charset "utf-8";
+*{
+	margin: 0px;
+    padding: 0px;
+}
+body{
+	width:1366px;
+	height:3000px;
+	margin:auto;
+
+	}
+.idea{
+	margin-top: -110px;
+}
+.ideakt{
+	text-align: center;
+	font-size: 19px;
+	color: #988984;
+}
+.ideakx{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 25px;
+	color: #988984;
+}
+.ideaimg{
+	margin-top: 30px;
+}
+#tab{
+	width: 1366px;
+	height: 1200px;
+}
+#tab_meau{
+	width: 1366px;
+	height: 140px;
+	background-color: #f5f0ed;
+	text-align: center;
+	margin-top: -20px;
+}
+#tab_meau ul{
+	padding-top: 10px;
+	list-style: none;
+	margin: 20px 0px 0px 60px; 
+}
+#tab_meau ul li{
+	float: left;
+	width: 110px;
+	margin-left:150px;
+
+}
+#tab_meau ul li p{
+	margin-top: 5px;
+	font-size: 14px;
+}
+#tab_meau ul li p a{
+	text-decoration: none;
+	color: #bbaea8;
+}
+#tab_meau ul li p a:hover{
+	color: #66b67b;
+}
+#tablist{
+	width: 1030px;
+    margin:20px auto;
+	height:250px;
+}
+#tablist ul li img{
+margin: 10px;
+}
+#tablist ul{
+	list-style: none;
+}
+/* .tabceng1{
+	display: none; 
+} */
+/* .tabceng2{
+	display: block;
+}  */
+.tabceng{
+	display: none; 
+}
+#tablist ul li{
+	width: 300px;
+	border: 1px solid #CCC;
+	float: left;
+	margin:0px 20px 0px 20px;
+	text-align: center;
+}
+#tablist ul li:hover{
+	border: 1px solid #66b67b;
+}
+#tablist ul li a{
+	color:#736353;
+	text-decoration: none;
+	font-size: 12px;
+}
+#tablist ul li span{
+	margin-top:0px;
+	padding: 5px;
+	display: block;
+	border-top: 1px solid #CCC;
+}
+
+/* 男孩 女孩 中性 */
+#people{
+	width: 1050px;
+	margin:-730px 0px 0px 157px;
+}
+#kind{
+	width: 1030px;
+}
+#people ul{
+	width: 303px;
+	height: 40px;
+	list-style: none;
+	border: 2px solid #66b67b;
+	border-radius: 5px;
+	margin:0 auto;
+}
+#people ul li{
+	padding: 6px 0px 0px 0px;
+	float: left;
+	width: 100px;
+	height: 35px;
+	text-align: center;
+	border-right: 1px solid #66b67b;
+}
+#people ul li a{
+	margin-top: 6px;
+	display: block;
+	height: 35px;
+	text-decoration: none;
+	color: #66b67b;
+	font-size: 12px;
+}
+#boy{
+	margin-top: 30px;
+	height: 830px;
+}
+.onediv{
+	height: 260px;
+}
+#one{
+	float: left;
+	text-align: center;
+	color: #bbaea8; 
+	font-size:12px;
+	margin:60px 0px 0px 20px;
+	height: 200px;
+}
+#bigp1{
+	font-size: 14px;
+	margin-bottom: 30px;
+	margin-left:310px;
+}
+#ts{
+	line-height: 25px;
+}
+#oneimg{
+	float: right;
+}
+.twodiv{
+	clear: both;
+	height: 260px;
+	margin-top: -100px;
+}
+#twoimg{
+	float: left;
+}
+#two{
+	float:right;
+	text-align: center;
+	color: #bbaea8; 
+	font-size:12px;
+    margin:70px 0px 20px 0px;
+	height: 210px;
+	
+}
+#bigp2{
+	font-size: 14px;
+	margin-bottom: 30px;
+	margin-left:242px;
+}
+
+#three{
+	float: left;
+	text-align: center;
+	color: #bbaea8; 
+	font-size:12px;
+	margin:60px 0px 0px 20px;
+	height: 210px;
+}
+#bigp3{
+	font-size: 14px;
+	margin-bottom: 30px;
+	margin-left:184px;
+}
+#threeimg{
+	float: right;
+}
+/* 女孩 */
+#girl{
+	margin-top: 30px;
+	margin:auto;
+	width:1050px; 
+	height: 830px;
+	display: none;
+}
+#bigpg1{
+	font-size: 14px;
+	margin-bottom: 30px;
+	margin-left:195px;
+}
+#bigpg2{
+	font-size: 14px;
+	margin-bottom: 30px;
+	margin-left:75px;
+}
+#bigpg3{
+	font-size: 14px;
+	margin-bottom: 30px;
+	margin-left:70px;
+}
+/* 中性 */
+#both{
+	margin-top: 30px;
+	margin:auto;
+	width:1050px; 
+	height: 830px;
+	clear: both;
+	display: none;
+}
+#bigpb1{
+	font-size: 14px;
+	margin-bottom: 30px;
+	margin-left:195px;
+}
+#bigpb2{
+	font-size: 14px;
+	margin-bottom: 30px;
+	margin-left:75px;
+}
+#bigpb3{
+	font-size: 14px;
+	margin-bottom: 30px;
+	margin-left:70px;
+}
+/* 最新资讯 */
+#new{
+	margin-top: 20px;
+	width: 1366px;
+	background-color: #f5f0ee;
+	height: 240px;
+}
+#newimg{
+	float: left;
+}
+#message{
+	margin-left:20px;
+	width:270px;
+	float: right;
+	font-size: 12px;
+	color:#bbaea8; 
+	line-height: 22px;
+}
+#newdiv{
+	width: 1000px;
+	height: 200px;
+	margin:auto;
+	margin-top: 20px;
+	padding: 5px;
+}
+#newdiv p{
+	margin-bottom: 10px;
+
+}
+#message a{
+	text-decoration: none;
+	color:#bbaea8; 
+	width: 60px;
+	text-align: center;
+	display: block;
+	padding: 5px; 
+	background-color: #ffffff;
+	margin-top:5px;
+	border: 1px solid #d1c6bd;
+}
+#message a:hover{
+	background-color: #69b379;
+	color: #ffffff;
+	text-decoration: underline;
+}
+#message p{
+	color: #726152;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+#new1{
+	clear: both;
+	float: left;
+	margin-top: 10px;
+}
+#new2{
+	float: left;
+	margin:10px 0px 0px 35px;
+
+}
+/* 画册 */
+#huace{
+	margin-top:40px;
+	height:380px;
+}
+#huace ul{
+	list-style: none;
+	width: 1080px;
+	margin:auto;
+
+}
+#huace ul li{
+	width: 250px;
+	height: 300px;
+	padding: 10px;
+	text-align: center;
+	float: left;
+}
+#huace ul li a{
+	text-decoration: none;
+	display: block;
+	color: #726152;	
+	
+}
+#huace ul li a:hover{
+	color: #66b67b; 
+}
+#hc{
+	padding-top: 10px;
+	display: block;
+	margin-top:10px;
+	height: 50px;
+	background-image:url(../images/index/96.jpg); 
+}
+.tssp{
+	color: #ac998b;
+}
+
+.foot{
+	margin-top: 20px;
+	padding: 15px 0px 0px 0px;
+	width: 1366px;
+	height: 80px;
+	clear: both;
+	text-align: center;
+	background-color: #afa49a;
+	font-size: 13px;
+	color: #ffffff;
+	line-height: 23px;
+}
+.foot a{
+	font-size: 14px;
+	color: #ffffff;
+	text-decoration: none;
+	}
+
+
+
+	/* 轮播 */
+
+a{
+			text-decoration: none;
+		}
+		li,ul li{
+			list-style: none;
+		}
+		.banner{
+			width: 1366px;
+			height: 540px;
+			margin:150px  auto;
+			position: relative;
+			overflow: hidden;
+		}
+		.banner-inner {
+			width: 5464px;
+			height: 540px;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+		.banner img{
+			width: 1366px;
+			height: 540px;
+			/* display: block; */
+			/* vertical-align: middle; */
+			float: left;
+		}
+		.banner .ctrlbtn a{
+			display: block;
+			position: absolute;
+			top: 50%;
+			width: 40px;
+			height:100px;
+			line-height: 100px;
+			text-align: center;
+			cursor: pointer;
+			font-size: 24px;
+			/* margin-top: -50px; */
+			color: white;
+			background: rgba(0,0,0,.5);
+		}
+		.prev{ right: 0; font-family: "宋体";}
+		.next{
+			   left: 0;font-family: "宋体";
+		}
+		.banner a:hover{
+			background: rgba(255,255,255,0.5)
+		}
+		.banner ul{
+			position: absolute;
+			left: 0;
+			bottom: 10px;
+			width: 100%;
+			text-align: center;
+		}
+		.banner li
+		{ display: inline-block; width: 10px; height: 10px; overflow: hidden; margin: 0 5px;
+		    background-color: rgba(255,255,255,0.5); border-radius: 50%; z-index: 1111; cursor: pointer;}
+		.banner .active{
+			background: rgba(255,255,255,1)
+		}
+

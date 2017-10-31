@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta name="super-H" content="QQ644531447" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta charset="utf-8" />
+		<!-- <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/bootstrap-3.3.4.css"> -->
+
+		<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/index2.css" />
+		<link rel="stylesheet" type="text/css" href="css/index1.css">
+		<link rel="stylesheet" href="css/pad.css" media="screen and (min-width: 670px) and (max-width:1065px)">
+	    <link rel="stylesheet" href="css/phone.css" media="screen and (max-width:768px)">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<style type="text/css">
+		#apDiv1 {
+	    position: absolute;
+	    left: 13px;
+	    top: 89px;
+	    width: 1328px;
+	    height: 99px;
+	    z-index: 1;
+}
+        </style>
+
+	  <script type="text/javascript" src="js/jquery1.7.2.min.js"></script> 
+	  <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+		 <!--  <script src="http://www.jq22.com/jquery/jquery-1.7.1.js"></script> -->  
+		<script src="js/unified2.js" type="text/javascript" charset="utf-8"></script>
+		<title>创意大小分享平台</title>
+		<script>
+		function getTop(clsName){ 
+            var obj = document.getElementsByClassName(clsName)[0];
+            return obj.getBoundingClientRect().top;
+        }
+
+        function getDom(clsName){
+            var obj=document.getElementsByClassName(clsName)[0];
+            return obj;
+        }
+
+        window.addEventListener('scroll',function(){
+            var scrollT=document.documentElement.scrollTop||document.body.scrollTop;
+        
+      /*第3动画的触发*/
+    /*  if(getTop('inner1')<450){
+                getDom('inner1').classList.add('animatedln1');
+                getDom('inner1').classList.add('animatedl1');
+            }*/
+            if(getTop('inn1')<450){
+                getDom('inn1').classList.add('articlec');
+                getDom('inn1').classList.add('animatedc');
+            }
+            if(getTop('inn2')<450){
+                getDom('inn2').classList.add('articlec');
+                getDom('inn2').classList.add('animatedc');
+            }
+             if(getTop('main2')<450){
+                getDom('main2').classList.add('articlec');
+                getDom('main2').classList.add('animatedc');
+            }
+             if(getTop('main3')<450){
+                getDom('main3').classList.add('articlec');
+                getDom('main3').classList.add('animatedc');
+            }
+             if(getTop('linner')<450){
+                getDom('linner').classList.add('articlec');
+                getDom('linner').classList.add('animatedc');
+            }
+        })
+        //下拉
+      /* function scrollxl(){ 
+       	alert("1");
+             document.documentElement.scrollTop=1000 ;
+             alert(document.documentElement.scrollTop);
+
+        }*/
+		</script>
+		<style type="text/css">
+			/*#ap2,#ap3{
+				display: none;
+			}*/
+
+		</style>
+	</head>
+
+	<body onmousemove="" ontouchstart="">
+   <!--  <div class="apDiv1" id="ap1">
+   	<ul>
+   		<li><a href="">大小创意公司理念</a></li>
+   		<li><a href="">大小创意斋作品</a></li>
+   		<li><a href="">姚仁禄顾问公司作品</a></li>
+   		<li><a href="">大小媒体作品</a></li>
+      </ul>
+   </div>
+   <div class="apDiv1" id="ap2">
+   	<ul>
+   		<li><a href="">东海大学：人文、文化、设计思考</a></li>
+   		<li><a href="">北艺大研究所：关渡讲座</a></li>
+   		<li><a href="">演讲短篇</a></li>
+   		<li><a href="">TED中文</a></li>
+   	</ul>
+   </div>
+    <div class="apDiv1" id="ap2">
+    	<ul>
+    		<li><a href="">大小创意粉丝团</a></li>
+    		<li><a href="">大小创意youtube</a></li>
+    		<li><a href="">大小创意土豆网</a></li>
+    	</ul>
+    </div> -->
+    <header>
+		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top hc-top-up">
+			<div class="container-fluid">
+				<a href="javascript:void(0)" class="hc-logobox">
+					<img src="img/img/logo.png" />
+				</a>
+
+				<!-- <div class="navbar-right hc-contact p768">
+					<a href="#">微信</a>
+					<a href="#">博客</a>
+				</div> -->
+				<div id="oiBtn" class="hc-oi p1100">
+					<em></em>
+				</div> 
+
+				<ul id="navBox" class="nav navbar-nav navbar-right hc-navbox" >
+					<li>
+						<a class="nav-off" href="#">首页</a>
+						<a class="nav-off" href="#">首页</a>  
+					</li>
+					<li>
+						<a class="nav-on" href="#">作品集</a>
+						<a class="nav-off" href="#">作品集</a>
+					</li>
+					<li>
+						<a class="nav-on" href="#">思考集</a>
+					    <a class="nav-off" href="#">思考集</a>
+					</li>
+					<li>
+						<a class="nav-on" href="#">最新文章</a>
+						<a class="nav-off" href="#">最新文章</a>
+					</li>
+					<li>
+						<a class="nav-on" href="#">经典案例</a>
+						<a class="nav-off" href="#">经典案例</a>
+					</li>
+					<li>
+						<a class="nav-on" href="#">联系我们</a>
+						<a class="nav-off" href="#">联系我们</a>
+					</li>
+				</ul>
+			</div>
+
+		</nav>
+		<div class="nav_cont">
+        <div class="cont_fon">
+         <h1>让创意自由</h1>
+           所有宗教，艺术和科学 <br>
+           都是同一棵树的分支<br>
+           对宗教、艺术、科学的渴望<br>
+           让我们，人品高尚<br>
+           有能力离开现实的限制<br>
+           迈向不受愚妄束缚的自由<br>
+</div>	
+</div>
+</header>
+<div class="xiala1">
+	<div class="xia1">
+		<br><br>
+		<h2>最新创意话题</h2>
+		在思想的海滩， <br>
+        捡拾不起眼的贝壳。 <br><!-- javascript:scrollxl() -->
+        <a href="#marta"><img src="img/img/ti.png"></a>
+	</div>
+
+</div>
+<a href="" name="marta"></a>
+<section class="hc-banner">
+			<ol></ol>
+			<ul class="banner">
+			<li class="hc-bannerbg" style="background-image: url(img/img/011.jpg); padding: 20px;">
+					<div class="hc-fly" style="background-color: rgba(52,52,52,0.4); padding:20px;">
+						<img class="fly-one" src="img/img/super-H.png" />
+						<!-- <div class="fly-two">
+							
+						</div> -->
+						<p class="fly-three" style="color: #fff">Innovative thinking new ideas perfect</p>
+                        
+						<p class="fly-four">创信思维 新颖理念 完美设计</p>
+						
+					</div>
+				</li>
+			
+				<li class="hc-bannerbg" style="background-image: url(img/img/022.jpg); padding: 20px;">
+					<div class="hc-fly" style="background-color: rgba(52,52,52,0.4); padding:20px;">
+						<img class="fly-one" src="img/img/super-H.png" />
+						<!-- <div class="fly-two">
+							
+						</div> -->
+						<p class="fly-three" style="color: #fff">「CONNECT THE DOTS」</p>
+						<p class="fly-four">连接一些不相干的点也许就不可思议</p>
+						
+					</div>
+				</li>
+				<li class="hc-bannerbg" style="background-image: url(img/img/033.jpg); padding: 20px;">
+					<div class="hc-fly" style="background-color: rgba(52,52,52,0.4); padding:20px;">
+						<img class="fly-one" src="img/img/super-H.png" />
+						<!-- <div class="fly-two">
+							
+						</div> -->
+						<p class="fly-three" style="color: #fff">「THE NEXT STEP IN LIFE」</p>
+						<p class="fly-four">掌握心中的方向不困惑</p>
+						
+					</div>
+				</li>
+			</ul>
+		
+			<!--  <a class="btn left">&lt;</a> 
+ 			  <a class="btn right">&gt;</a> -->
+		</section> 
+<main>
+	<h1>未来创意的四种想像</h1>
+	<div class="inn1">
+	<div class="inner1"><div class="inner_img"><a href="#"><img src="img/img/inner1.jpg" class="img-responsive"></a></div><div><p>看见。未来趋势</p>
+<p>不论您是室内设计、建筑设计还是家具设计，就连医生与设计，界线都开始瓦解了...也就是说，跨领域合作，已是未来的趋势之一。</p></div></div>
+    <div class="inner2"><div class="inner_img"><a href="#"><img src="img/img/inner2.jpg" class="img-responsive"></a></div><div><p>想像。未来教育</p>
+<p>我们现今的教育，仍是工业革命时代延伸的架构，无法赶上现代环境的巨变。对于未来，其实还有第三条路，让我们有更多选择。
+</p></div></div>
+</div>
+<div class="inn2">
+<div class="inner3"><div class="inner_img"><a href="#"><img src="img/img/inner3.jpg" class="img-responsive"></a></div><div><p>看见。未来趋势</p>
+<p>不论您是室内设计、建筑设计还是家具设计，就连医生与设计，界线都开始瓦解了...也就是说，跨领域合作，已是未来的趋势之一。</p></div></div>
+    <div class="inner4"><div class="inner_img"><a href="#"><img src="img/img/inner4.jpg" class="img-responsive"></a></div><div><p>想像。未来教育</p>
+<p>我们现今的教育，仍是工业革命时代延伸的架构，无法赶上现代环境的巨变。对于未来，其实还有第三条路，让我们有更多选择。
+</p></div></div>
+</div>
+
+
+</main>
+<div class="xiala1">
+	<div class="xia1">
+		<br><br>
+		<h2>有系统的学习可以培养创意的养份：</h2>
+		设计边境｜人文文化设计思考｜设计思考 <br>
+         北艺大研究所｜东西建筑十讲<br>
+        <a href="#martb"><img src="img/img/ti.png"></a>
+</div></div>
+<a href="" name="martb"></a>
+<div class="main2" >
+	<div class="minner1"><div class="inner_img"><a href="#"><img src="img/img/m1.jpg" class="img-responsive"></a></div>
+		<p>设计边境</p>
+        <p>（Frontiers of the 21st Century Design）</p>
+        <p>二十一世纪待开发的设计领域</p>
+        <p>主讲人：姚仁禄</p>
+       <a href="#" class="more">更多内容&nbsp;&raquo;</a>
+        
+        </div>
+    <div class="minner2"><div class="inner_img"><a href="#"><img src="img/img/m2.jpg" class="img-responsive"></a></div>
+    	<p>设计、品牌与行销</p>
+        <p>（Design, Branding and Marketing）</p>
+        <p>每堂思考全世界关切的设计与品牌核心问题</p>
+        <p>主讲人：姚仁禄</p>
+        <a href="#" class="more">更多内容&nbsp;&raquo;</a>
+</div>
+<div class="minner3"><div class="inner_img"><a href="#"><img src="img/img/m3.jpg" class="img-responsive"></a></div>
+    	<p>人文、文化与设计思考</p>
+        <p>（Humanity, Culture, Design Thinking） </p>
+        <p>人文反思与文化典范转移</p>
+        <p>主讲人：姚仁禄</p>
+        <a href="#" class="more">更多内容&nbsp;&raquo;</a>
+</div>
+</div><br>
+<div class="main3">
+	<div class="minner1"><div class="inner_img"><a href="#"><img src="img/img/m4.jpg" class="img-responsive"></a></div>
+		<p>设计思考</p>
+        <p>（Design Thinking）</p>
+        <p>以「直觉」导航，以「知识」续航</p>
+        <p>主讲人：姚仁禄</p>
+       <a href="#" class="more">更多内容&nbsp;&raquo;</a>
+        
+        </div>
+    <div class="minner2"><div class="inner_img"><a href="#"><img src="img/img/m5.jpg" class="img-responsive"></a></div>
+    	<p>思考者的自白与答问</p>
+        <p>(Confessions and Dialogues of Thinkers)</p>
+        <p>台北艺术大学－关渡讲座,天，地，人，爱，恨，生，死</p>
+        <p>主讲人：姚仁禄</p>
+        <a href="#" class="more">更多内容&nbsp;&raquo;</a>
+</div>
+<div class="minner3"><div class="inner_img"><a href="#"><img src="img/img/m6.jpg" class="img-responsive"></a></div>
+    	<p>东西建筑十讲</p>
+        <p>十堂课涵盖了建筑系的中国建筑史、西洋建筑史、现代建筑史，以及当代建筑。</p>
+        <p>主讲人：汉宝德</p>
+        <a href="#" class="more">更多内容&nbsp;&raquo;</a>
+</div>
+</div>
+<div class="xiala1">
+	<div class="xia1">
+		<br><br>
+		<h2>创意人的展演</h2>
+		Since 2007.07.07 <br>
+ <br>
+        <a href="#martc"><img src="img/img/ti.png"></a>
+</div></div>
+<a href="" name="martc"></a>
+<div class="last">
+	<div class="linner">
+	<div class="lin1">
+    <div class="lin_img"><a href="#"><img src="img/img/l1.jpeg" class="img-responsive"></a></div><p>万人墨象 <br>
+      无声的乐章有声的书法<br>
+      董阳孜X阿信</p>
+</div>
+<div class="lin2">
+    <div class="lin_img"><a href="#"><img src="img/img/l2.jpg" class="img-responsive"></a></div><p>与岁月对话：汉宝德的故事 <br>
+建筑师，教育家，美学推动者 <br>
+汉宝德生前最后访谈记录。</p>
+</div>
+</div>
+
+<div class="lin3">
+	<h2>追踪最新动态</h2>
+<p>与您分享：创意让世界更美好！</p>
+<a href="" class="more">加入我们</a>
+</div>
+</div>
+<footer>
+	<div class="foot1">
+	<div class="ul1">
+    <p>近期文章</p>
+	<ul >
+	<li><a href="#">人生的下一步该怎么走？</a></li>
+	<li><a href="#">用苹果培养出耳朵（安德鲁·佩尔霖）</a></li>
+	<li><a href="#">脑袋不变空心不变凉</a></li>
+	<li><a href="#">跨领域，是很重要的！</a></li>
+	<li><a href="#">设计的力量翻转生活</a></li>
+</ul>
+</div>
+<div class="ul2">
+	<p>作品介绍</p>
+    <ul >
+	<li><a href="#">大小创意公司理念</a></li>
+	<li><a href="#">大小创意斋作品</a></li>
+	<li><a href="#">姚仁禄顾问公司作品</a></li>
+	<li><a href="#">大小媒体作品</a></li>
+	<li><a href="#">东西建筑十讲</a></li>
+</ul>
+</div>
+</div>
+<div class="foot2">
+	<ul>
+		<li><a href="#">关于我们</a></li>
+		<li><a href="#">最新文章</a></li>
+		<li><a href="#">联系我们</a></li>
+	</ul>
+	 <p>© 大小創意 dX-media，dX-creative house</p>
+</div>
+
+</footer>
+	</body>
+
+</html>

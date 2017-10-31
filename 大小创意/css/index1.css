@@ -1,0 +1,38 @@
+.nav_cont{
+	height:750px;
+	background:url(../img/img/a2.jpg) no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	              /*border:1px solid;*/
+	              
+	          }
+.cont_fon{
+	position: absolute;
+	color: #fff;
+	font-size: 24px;
+	margin-top: 24%;
+	margin-left: 18%;
+	line-height: 35px;
+	          	/*border:1px solid red;*/
+	          }
+.cont_fon h1{
+	font-size: 38px;
+	margin-bottom: 10px;
+	          }
+.xiala1{
+	clear: both;
+	height: 270px;
+	background-color: #343434;
+	text-align: center;
+}
+.xia1{
+	/*margin-top:50px;*/
+	font-size: 22px;
+	color: #fff;
+}
+.xia1 h2{
+	font-size: 30px;
+	margin-bottom: 10px;
+
+}
